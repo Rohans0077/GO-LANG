@@ -20,4 +20,7 @@ func main() {
 	var percentage float32 = 87.45
 	fmt.Println("The percentage obtained is ", percentage)
 	fmt.Printf("The type of variable is %T ", percentage)
+
+	fruits := "apple"
+	fmt.Println(fruits)
 }
