@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+// global variables
+
+var numberusers int = 300000
+
+const size = 5
+
 func main() {
 
 	var username string = "Rohan"
@@ -19,8 +25,17 @@ func main() {
 
 	var percentage float32 = 87.45
 	fmt.Println("The percentage obtained is ", percentage)
-	fmt.Printf("The type of variable is %T ", percentage)
+	fmt.Printf("The type of variable is %T \n", percentage)
+
+	var number uint8 = 255
+
+	fmt.Println(number)
+
+	var uninitnumber int
+	fmt.Println(uninitnumber)
 
 	fruits := "apple"
 	fmt.Println(fruits)
+	fmt.Println(numberusers)
+	fmt.Println(size)
 }
